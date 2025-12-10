@@ -64,6 +64,8 @@ q_results_list = vectorized_circuit(patch_features, weights)
 
 Below is the comparison between the Quantum-enhanced model and the standard Classical model.
 
+![Training Results](results/results_plot.png)
+
 *(Note: Results generated using a subset of 50 MNIST samples for demonstration speed. Training curves may vary based on random seed initialization)*.
 
 ### ⚡ Performance Benchmark
