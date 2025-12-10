@@ -73,8 +73,8 @@ We compared the `jax.vmap` implementation against a standard nested-loop approac
 
 | Method | Time per Image | Speedup |
 | :--- | :--- | :--- |
-| Standard Python Loops | ~8.3563ss | 1x |
-| **JAX Vmap (Vectorized)** | **~0.0007s** | **~11651.9x** |
+| Standard Python Loops | ~6.3102s | 1x |
+| **JAX Vmap (Vectorized)** | **~0.0004s** | **~16403.1x** |
 
 *(Benchmarks run on standard CPU. GPU acceleration would yield even higher throughput.)*
 
